@@ -8,11 +8,11 @@
 import Foundation
 
 public struct Style {
-  var attributes: [NSAttributedString.Key: Any] = [:]
-
-  init(attributes: [NSAttributedString.Key: Any]) {
-    self.attributes = attributes
-  }
-
-  init() {}
+    var attributes: [NSAttributedString.Key: Any] = [:]
+    
+    init(attributes: [NSAttributedString.Key: Any]) {
+        self.attributes = attributes
+    }
+    
+    init() {}
 }
